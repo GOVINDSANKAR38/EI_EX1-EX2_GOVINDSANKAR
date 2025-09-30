@@ -47,7 +47,11 @@ The **Smart Home System** simulates a connected home environment, allowing users
 - Terminal/Command Prompt  
 
 ### Run the Project
-1. Navigate to the `src` folder of the first exercise:
+1. Navigate to the `1stexercise_DesignPatterns` folder of the first exercise:
 ```bash
 cd 1stexercise_DesignPatterns
+2. Run the application:
+```bash
+java Main
+
 
