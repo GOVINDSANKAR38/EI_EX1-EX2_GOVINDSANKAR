@@ -1,4 +1,4 @@
-Smart Home System
+#Smart Home System
 Problem
 
 Simulate a smart home environment with devices such as lights, thermostats, and door locks. The system allows controlling these devices via commands through a console-based interface.
