@@ -49,7 +49,7 @@ The **Smart Home System** simulates a connected home environment, allowing users
 ### Run the Project
 1. Navigate to the `2ndexercise_DesignPatterns` folder of the first exercise:
 
-cd 2ndexercise_DesignPatterns
+          '''bash cd 2ndexercise_DesignPatterns
 
 
 
@@ -57,5 +57,5 @@ cd 2ndexercise_DesignPatterns
 
 2.Run the application:
 
-java Main
+        '''bash java Main
 
