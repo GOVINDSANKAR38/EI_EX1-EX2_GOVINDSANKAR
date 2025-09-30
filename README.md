@@ -1,52 +1,85 @@
-#Smart Home System
-Problem
+##Smart Home System
 
-Simulate a smart home environment with devices such as lights, thermostats, and door locks. The system allows controlling these devices via commands through a console-based interface.
+Project Overview
+
+The Smart Home System simulates a connected home environment, allowing users to manage devices like Lights, Thermostats, and Door Locks via a console-based interactive interface. The project focuses on clean code, OOP, SOLID principles, and design patterns, making it extensible and maintainable.
 
 Features
 
-Add and remove devices dynamically
+Dynamic Device Management – Add or remove devices at runtime
 
-Turn lights on/off
+Device Control:
 
-Set thermostat temperature
+Lights – Turn ON/OFF
 
-Lock/unlock doors
+Thermostat – Set temperature
 
-Schedule device actions (e.g., turn off after N seconds)
+Door Locks – Lock/Unlock
 
-Automation: turn off all lights if the temperature exceeds a threshold
+Scheduled Tasks – Perform actions after a delay
 
-Logging of device actions via proxy
+Automation Rules – Example: Turn off all lights if temperature exceeds threshold
 
-Design Patterns Used
+Proxy Logging – Tracks device actions
 
-Factory Pattern – for creating devices dynamically
+Interactive Console Menu – Easy to operate without GUI
 
-Proxy Pattern – to control access and log device actions
+Design Patterns Implemented
 
-Observer Pattern – for automation triggers (optional)
+Factory Pattern – Dynamically create devices
 
-Singleton (ScheduledExecutorService) – for scheduling tasks
+Proxy Pattern – Control access and log actions
 
-Interface Segregation – devices implement only relevant capabilities
+Observer Pattern – Monitor device states for automation
+
+Singleton Pattern – Manage scheduler service
+
+Interface Segregation (ISP) – Separate interfaces for Switchable, Adjustable, Lockable
+
+SOLID Principles
+
+S – Single Responsibility: Classes handle one responsibility only
+
+O – Open/Closed: Easily extendable without modifying existing code
+
+L – Liskov Substitution: Devices can be used interchangeably via interfaces
+
+I – Interface Segregation: Only implement interfaces relevant to the device
+
+D – Dependency Inversion: SmartHomeHub depends on abstractions, not concrete classes
+
+Getting Started
+Requirements
+
+Java 11 or higher
+
+Terminal/Command Prompt
+
+Run the Project
+
+Navigate to the project folder:
+
+cd src
+
+
+Compile all Java files:
+
+javac *.java
+
+
+Run the console application:
+
+java Main
 
 Usage
 
-The console menu displays options to:
-
-Add/Remove devices
-
-Turn on/off devices
-
-Set thermostat temperature
-
-Lock/unlock doors
-
-Schedule device actions
-
-Run automation checks
-
-Input the required IDs, commands, or values as prompted.
-
-The program continues running until you select the Exit option.
+Follow the interactive menu:
+1️⃣ Add Device
+2️⃣ Remove Device
+3️⃣ Turn ON/OFF Device
+4️⃣ Set Thermostat Temperature
+5️⃣ Lock/Unlock Door
+6️⃣ Schedule Device Actions
+7️⃣ Show Device Status
+8️⃣ Run Automation Check
+9️⃣ Exit
