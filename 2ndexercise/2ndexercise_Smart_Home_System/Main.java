@@ -4,13 +4,11 @@ public class Main {
     public static void main(String[] args) {
         SmartHomeHub hub = new SmartHomeHub();
         Scanner sc = new Scanner(System.in);
-
-        // create and add default devices (wrapped with proxy)
         hub.addDevice(new DeviceProxy(DeviceFactory.createDevice(1, "light")));
         hub.addDevice(new DeviceProxy(DeviceFactory.createDevice(2, "thermostat")));
         hub.addDevice(new DeviceProxy(DeviceFactory.createDevice(3, "door")));
 
-        System.out.println("=== Welcome to Smart Home System ===");
+        System.out.println(" Welcome to Smart Home System");
 
         boolean running = true;
         while (running) {
