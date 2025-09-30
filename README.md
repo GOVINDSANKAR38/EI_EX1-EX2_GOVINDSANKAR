@@ -1,4 +1,4 @@
-# 🏠 Smart Home System
+# Smart Home System
 
 ![Java](https://img.shields.io/badge/Language-Java-blue) ![SOLID Principles](https://img.shields.io/badge/SOLID-Principles-green) ![Console App](https://img.shields.io/badge/Interface-Terminal-orange)
 
@@ -49,7 +49,7 @@ The **Smart Home System** simulates a connected home environment, allowing users
 ### Run the Project
 1. Navigate to the `1stexercise_DesignPatterns` folder of the first exercise:
 ```bash
-cd 1stexercise_DesignPatterns
+cd 2ndexercise_DesignPatterns
 
 2. Run the application:
 ```bash
