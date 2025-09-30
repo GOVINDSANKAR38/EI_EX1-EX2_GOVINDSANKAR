@@ -51,8 +51,7 @@ The **Smart Home System** simulates a connected home environment, allowing users
 ```bash
 cd 2ndexercise_DesignPatterns
 
-2. Run the application:
-```bash
-   java Main
+2.Run the application:
 
+java Main
 
