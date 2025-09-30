@@ -1,4 +1,4 @@
-# 🛠️ Design Patterns Examples – Exercise 1
+# Design Patterns Examples – Exercise 1
 
 ![Java](https://img.shields.io/badge/Language-Java-blue) ![Console App](https://img.shields.io/badge/Interface-Terminal-orange)
 
