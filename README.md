@@ -1,11 +1,11 @@
 # 🏠 Smart Home System
 
-![Java](https://img.shields.io/badge/Language-Java-blue) ![SOLID Principles](https://img.shields.io/badge/SOLID-Principles-green) ![Console App](https://img.shields.io/badge/Interface-Console-orange)
+![Java](https://img.shields.io/badge/Language-Java-blue) ![SOLID Principles](https://img.shields.io/badge/SOLID-Principles-green) ![Console App](https://img.shields.io/badge/Interface-Terminal-orange)
 
 ---
 
 ## Project Overview
-The **Smart Home System** simulates a connected home environment, allowing users to manage devices like **Lights, Thermostats, and Door Locks** via a **console-based interactive interface**. The project focuses on **clean code, OOP, SOLID principles, and design patterns**, making it **extensible and maintainable**.
+The **Smart Home System** simulates a connected home environment, allowing users to manage devices like **Lights, Thermostats, and Door Locks** via a **Terminal-based interactive interface**. The project focuses on **clean code, OOP, SOLID principles, and design patterns**, making it **extensible and maintainable**.
 
 ---
 
@@ -43,11 +43,11 @@ The **Smart Home System** simulates a connected home environment, allowing users
 ## Getting Started
 
 ### Requirements
-- Java 11 or higher  
+- Java 20 or higher  
 - Terminal/Command Prompt  
 
 ### Run the Project
-1. Navigate to the project folder:  
+1. Navigate to the `src` folder of the first exercise:
 ```bash
-cd src
+cd 1stexercise_DesignPatterns
 
