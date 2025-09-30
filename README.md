@@ -56,6 +56,6 @@ cd 2ndexercise_DesignPatterns
 
 
 2.Run the application:
-
+'''bash
 java Main
 
