@@ -6,7 +6,6 @@ public class DeviceFactory {
     private static final Map<String, Function<Integer, Device>> registry = new HashMap<>();
 
     static {
-        // register default types
         registerDevice("light", Light::new);
         registerDevice("thermostat", Thermostat::new);
         registerDevice("door", DoorLock::new);
