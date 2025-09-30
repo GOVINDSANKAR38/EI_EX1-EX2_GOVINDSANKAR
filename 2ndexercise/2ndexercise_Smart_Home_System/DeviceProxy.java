@@ -6,7 +6,7 @@ public class DeviceProxy implements Device {
     public DeviceProxy(Device realDevice) {
         this.realDevice = realDevice;
     }
-
+    
     @Override
     public int getId() { return realDevice.getId(); }
 
