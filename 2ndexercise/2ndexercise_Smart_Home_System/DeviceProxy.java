@@ -16,7 +16,6 @@ public class DeviceProxy implements Device {
     @Override
     public String getStatus() { return realDevice.getStatus(); }
 
-    // Capability accessors delegate to underlying realDevice
     @Override
     public Optional<Switchable> asSwitchable() {
         return realDevice.asSwitchable();
@@ -31,8 +30,6 @@ public class DeviceProxy implements Device {
     public Optional<Lockable> asLockable() {
         return realDevice.asLockable();
     }
-
-    // Convenience methods that perform the action via capability view (with proxy logging)
     public void turnOn() {
         Optional<Switchable> cap = asSwitchable();
         if (cap.isPresent()) {
@@ -83,7 +80,6 @@ public class DeviceProxy implements Device {
         }
     }
 
-    // Expose underlying device if absolutely needed (use sparingly)
     public Device getRealDevice() {
         return realDevice;
     }
