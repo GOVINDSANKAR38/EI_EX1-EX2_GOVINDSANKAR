@@ -2,16 +2,12 @@ import java.util.*;
 import java.util.concurrent.*;
 
 public class SmartHomeHub implements Observer {
-    // store proxies (abstraction dependency is maintained: hub works with Device)
+
     private final Map<Integer, DeviceProxy> devices = new LinkedHashMap<>();
     private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(2);
-
-    // Add proxy-wrapped device and register hub as observer
     public void addDevice(DeviceProxy proxy) {
         devices.put(proxy.getId(), proxy);
         System.out.println("Added " + proxy.getType() + " with ID " + proxy.getId());
-
-        // Hub observes device events
         if (proxy.getRealDevice() instanceof Subject) {
             ((Subject) proxy.getRealDevice()).addObserver(this);
         }
@@ -29,7 +25,6 @@ public class SmartHomeHub implements Observer {
         }
     }
 
-    // Capability-based actions (DIP + ISP respected)
     public void turnOn(int id) {
         DeviceProxy proxy = devices.get(id);
         if (proxy == null) { System.out.println("Device not found"); return; }
@@ -77,7 +72,6 @@ public class SmartHomeHub implements Observer {
         }
     }
 
-    // Optional automation example
     public void autoCheckTemperatureAndTurnOffLights(int threshold) {
         for (DeviceProxy proxy : devices.values()) {
             Device real = proxy.getRealDevice();
@@ -90,8 +84,6 @@ public class SmartHomeHub implements Observer {
             }
         }
     }
-
-    // Observer update method: receives notifications from devices
     @Override
     public void update(Device device, String event) {
         System.out.println("[Observer] Device " + device.getId() + " [" + device.getType() + "] event: " + event);
