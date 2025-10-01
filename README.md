@@ -93,7 +93,6 @@ The **Smart Home System** simulates a connected home environment, allowing users
 1. Navigate to the `2ndexercise_DesignPatterns` folder of the 2ndexercise:
    ### cd 2ndexercise_DesignPatterns
 2.Run the application:
-     
-  ### java Main
+   ### java Main
 
 
