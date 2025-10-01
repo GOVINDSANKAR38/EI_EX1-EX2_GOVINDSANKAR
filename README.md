@@ -5,7 +5,7 @@ Both projects use **interactive terminal input** to showcase practical applicati
 
 ---
 
-##   Exercise 1 – Design Patterns Examples (Exercise 1)
+##   Exercise 1 – Design Patterns Examples 
 
 
 ###  Project Overview
