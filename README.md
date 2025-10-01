@@ -4,31 +4,35 @@ This repository contains **two Java console applications** demonstrating **Behav
 Both projects use **interactive terminal input** to showcase practical applications of design patterns in real-world scenarios.
 
 ---
+##  Exercise 1- Design Patterns Examples 
 
-##   Exercise 1 – Design Patterns Examples 
+![Java](https://img.shields.io/badge/Language-Java-blue) ![Console App](https://img.shields.io/badge/Interface-Terminal-orange)
 
+---
 
-###  Project Overview
-This project demonstrates **Behavioral, Creational, and Structural design patterns** in Java.  
-Each pattern is implemented with **interactive console input**, making it easy to test and understand their usage.
+## Project Overview
+This project demonstrates **Behavioral, Creational, and Structural design patterns** in Java. Each pattern is implemented with **interactive console input**, making it easy to test and understand their usage in real-world scenarios.  
 
-###  Features
+---
 
-**Behavioral Patterns:**
-- **Strategy Pattern** – Calculate trip cost based on travel mode (Car, Train, Flight)  
-- **Observer Pattern** – Monitor weather data in real-time (Mobile App, LED Display)
+## Features
+- **Behavioral Patterns**:
+  - Strategy Pattern – Calculate trip cost based on travel mode  
+  - Observer Pattern – Monitor weather data in real-time  
 
-**Creational Patterns:**
-- **Singleton Pattern** – Manage a database connection pool  
-- **Factory Pattern** – Dynamically create notifications (Email/SMS/Push)
+- **Creational Patterns**:
+  - Singleton Pattern – Manage a database connection pool  
+  - Factory Pattern – Dynamically create notifications (Email/SMS/Push)  
 
-**Structural Patterns:**
-- **Decorator Pattern** – Add toppings dynamically to a pizza order  
-- **Adapter Pattern** – Use multiple payment gateways (PayPal, Stripe, GPay, Paytm) through a unified interface  
+- **Structural Patterns**:
+  - Decorator Pattern – Add toppings dynamically to a pizza order  
+  - Adapter Pattern – Use multiple payment gateways (PayPal, Stripe, GPay, Paytm) through a unified interface  
 
-###  Getting Started
+---
 
-#### Requirements
+## Getting Started
+
+### Requirements
 - Java 20 or higher  
 - Terminal/Command Prompt  
 
