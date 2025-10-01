@@ -47,7 +47,7 @@ The **Smart Home System** simulates a connected home environment, allowing users
 - Terminal/Command Prompt  
 
 ### Run the Project
-1. Navigate to the `2ndexercise_DesignPatterns` folder of the first exercise:
+1. Navigate to the `2ndexercise_DesignPatterns` folder of the 2ndexercise:
    ### cd 2ndexercise_DesignPatterns
 
 
