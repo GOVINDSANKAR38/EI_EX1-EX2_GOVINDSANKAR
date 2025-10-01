@@ -1,4 +1,4 @@
-# Java Design Patterns & Smart Home System Projects 🚀
+# Java Design Patterns & Smart Home System Projects 
 
 This repository contains **two Java console applications** demonstrating **Behavioral, Creational, and Structural design patterns** along with **SOLID principles**.  
 Both projects use **interactive terminal input** to showcase practical applications of design patterns in real-world scenarios.
