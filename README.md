@@ -5,15 +5,15 @@ Both projects use **interactive terminal input** to showcase practical applicati
 
 ---
 
-## 📌 Project 1 – Design Patterns Examples (Exercise 1)
+##   Exercise 1 – Design Patterns Examples (Exercise 1)
 
 **Type:** Java Console App  
 
-### 📖 Project Overview
+###  Project Overview
 This project demonstrates **Behavioral, Creational, and Structural design patterns** in Java.  
 Each pattern is implemented with **interactive console input**, making it easy to test and understand their usage.
 
-### 🏗 Features
+###  Features
 
 **Behavioral Patterns:**
 - **Strategy Pattern** – Calculate trip cost based on travel mode (Car, Train, Flight)  
@@ -27,7 +27,7 @@ Each pattern is implemented with **interactive console input**, making it easy t
 - **Decorator Pattern** – Add toppings dynamically to a pizza order  
 - **Adapter Pattern** – Use multiple payment gateways (PayPal, Stripe, GPay, Paytm) through a unified interface  
 
-### ⚙️ Getting Started
+###  Getting Started
 
 #### Requirements
 - Java 20 or higher  
@@ -35,11 +35,10 @@ Each pattern is implemented with **interactive console input**, making it easy t
 
 #### Compile and Run
 1. Navigate to the folder:
-```bash
-cd 1stexercise_DesignPatterns
+### cd 1stexercise_DesignPatterns
 
 
-# Smart Home System
+##   Exercise 2 – Smart Home System
 
 ![Java](https://img.shields.io/badge/Language-Java-blue) ![SOLID Principles](https://img.shields.io/badge/SOLID-Principles-green) ![Console App](https://img.shields.io/badge/Interface-Terminal-orange)
 
