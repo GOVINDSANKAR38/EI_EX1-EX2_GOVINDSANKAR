@@ -89,10 +89,11 @@ The **Smart Home System** simulates a connected home environment, allowing users
 - Java 20 or higher  
 - Terminal/Command Prompt  
 
+
 ### Run the Project
-1. Navigate to the `2ndexercise_DesignPatterns` folder of the 2ndexercise:
-   ### cd 2ndexercise_DesignPatterns
-2.Run the application:
-   ### java Main
+1. Navigate to the `2ndexercise_DesignPatterns` folder of the 2ndexercise and Run the application :
+   '''bash
+   cd 2ndexercise_DesignPatterns
+   java Main
 
 
