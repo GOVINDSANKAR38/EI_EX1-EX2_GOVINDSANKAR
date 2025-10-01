@@ -1,4 +1,4 @@
-# Java Design Patterns & Smart Home System Projects 
+# Java Design Patterns & Smart Home System  
 
 This repository contains **two Java console applications** demonstrating **Behavioral, Creational, and Structural design patterns** along with **SOLID principles**.  
 Both projects use **interactive terminal input** to showcase practical applications of design patterns in real-world scenarios.
@@ -92,8 +92,8 @@ The **Smart Home System** simulates a connected home environment, allowing users
 
 ### Run the Project
 1. Navigate to the `2ndexercise_DesignPatterns` folder of the 2ndexercise and Run the application :
-   '''bash
-   cd 2ndexercise_DesignPatterns
-   java Main
+'''bash
+cd 2ndexercise_DesignPatterns
+java Main
 
 
