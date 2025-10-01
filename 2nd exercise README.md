@@ -55,5 +55,6 @@ The **Smart Home System** simulates a connected home environment, allowing users
 
 
 2.Run the application:
-     ### java Main
+     
+  ### java Main
 
